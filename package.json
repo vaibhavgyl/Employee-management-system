@@ -1,0 +1,27 @@
+{
+  "name": "employee-management-system-david-ryan",
+  "version": "1.0.0",
+  "description": "Simple employee management system run on the command line using an sql database for persistent data storage",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kadika38/Employee-Management-System-David-Ryan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kadika38/Employee-Management-System-David-Ryan/issues"
+  },
+  "homepage": "https://github.com/Kadika38/Employee-Management-System-David-Ryan#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.18.1",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  }
+}
